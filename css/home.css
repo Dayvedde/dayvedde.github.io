@@ -10,13 +10,20 @@ body {
 
 .body-container {
     height: 1000px;
+    margin-bottom: -20px;
 }
 
 .sidebar-wrapper {
     height: 100%;
+    width:10%;
+    display:block;
 }
 
 .content-container {
     height: 100%;
+    width: 90%;
+    display: block;
 }
+
+
 
