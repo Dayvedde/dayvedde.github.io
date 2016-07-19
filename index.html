@@ -21,15 +21,21 @@
 
     <body>
         <header>
-            <ul id="nav-sidebar" class="side-nav fixed teal lighten-2">
-                <li class="menu-logo center-align">
-                    <a id="menu-logo-container" href="#">
-                        <div class="menu-logo-wrapper">
-                            <i class="material-icons medium">menu</i>
-                        </div>
-                    </a>
-                </li>
-            </ul>
+            <div class="nav-sidebar-wrapper">
+                <ul id="nav-sidebar-content" class="side-nav fixed teal lighten-2">
+
+                </ul>
+                <ul id="nav-sidebar-menu" class="side-nav fixed teal lighten-2">
+                    <li class="menu-logo center-align">
+                        <a id="menu-logo-container" href="#" data-activates="nav-sidebar" class="button-collapse">
+                            <div class="menu-logo-wrapper">
+                                <i class="material-icons medium">menu</i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
         </header>
         <main>
             <div id="name-banner" class="section no-pad-bot blue-grey">
@@ -64,6 +70,10 @@
 
 <script type="text/javascript">
     $(document).ready(function(){
-
+        $(".button-collapse").click(function(){
+            $("#nav-sidebar-content").animate({
+                width: "toggle"
+            }, 350);
+        })
     })
 </script>

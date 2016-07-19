@@ -5,3 +5,16 @@
 .menu-logo-wrapper {
 	color:black;
 }
+
+#nav-sidebar-content {
+	width:500px;
+	display: none;
+}
+
+#nav-sidebar-menu {
+	width:90px;
+}
+
+.side-nav.fixed a{
+	padding: 0px;
+}
