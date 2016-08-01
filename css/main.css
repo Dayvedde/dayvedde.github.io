@@ -1,3 +1,10 @@
-#name-banner{
-	height:1000px;
+.image-headshot {
+	width: 150px;
+	height: auto;
+}
+
+#name-banner {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+   	background-size: 100% 100%;
 }
