@@ -35,8 +35,8 @@
 
 .name-container:before {
 	background: url("../images/img1.jpg");
-	filter: brightness(35%);
-	height: 500px;
+	filter: brightness(45%);
+	height: 660px;
 	left: 0;
 	right: 0;
 	z-index: 1;
@@ -53,8 +53,25 @@
 	display:block;
 }
 
+.headshot-img-wrapper {
+	margin-top: 30px;
+}
+
+.headshot-img {
+	filter: brightness(80%);
+}
+
+.headshot-img {
+	height: 300px;
+	width: 300px;
+}
+
+.name-description {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
 
 .about-me {
-	margin-top: 250px;
+	margin-top: 20px;
 }
 
