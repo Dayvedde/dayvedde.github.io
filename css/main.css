@@ -1,10 +1,60 @@
-.image-headshot {
-	width: 150px;
-	height: auto;
+.name-description {
+	font-size: 48px;
+	font-weight: '500';
 }
 
-#name-banner {
-	background-image: url("../images/background.jpg");
-	background-repeat: no-repeat;
-   	background-size: 100% 100%;
+.name-text {
+	font-size: 112px;
+	font-weight: 200;
 }
+
+.image-container {
+	max-width:100%;
+	max-height:100%;
+	filter: brightness(40%);
+}
+
+.parallax-container {
+	height: 500px;
+}
+
+.name-container {
+	
+}
+
+/*.name-img-container {
+	background-image: url("../images/img1.jpg");
+	filter: brightness(35%);
+	height: 500px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+	display: block;
+}*/
+
+.name-container:before {
+	background: url("../images/img1.jpg");
+	filter: brightness(35%);
+	height: 500px;
+	left: 0;
+	right: 0;
+	z-index: 1;
+	position: absolute;
+	display: block;
+	content: "";
+}
+
+.name-content {
+	z-index: 2;
+	position: relative;	
+	left: 0;
+	top: 0;
+	display:block;
+}
+
+
+.about-me {
+	margin-top: 250px;
+}
+

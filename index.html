@@ -1,83 +1,100 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title>David Lai</title>
-        <!--Import Google Icon Font-->
-        <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-        <link type="text/css" rel="stylesheet" href="css/home.css" />
-        <link type="text/css" rel="stylesheet" href="css/main.css" />
-        <link type="text/css" rel="stylesheet" href="css/header.css" />
-        <link type="text/css" rel="stylesheet" href="css/footer.css" />
+<head>
+    <title>David Lai</title>
+    <!--Import Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/home.css" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/header.css" />
+    <link type="text/css" rel="stylesheet" href="css/footer.css" />
+    <link type="text/css" rel="stylesheet" href="css/typography.css" />
 
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-        <!--Let browser know website is optimized for mobile-->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
 
-    <body>
-        <!-- <header>
-            <div class="nav-sidebar-wrapper">
-                <ul id="nav-sidebar-content" class="side-nav fixed teal lighten-2">
-
-                </ul>
-                <ul id="nav-sidebar-menu" class="side-nav fixed teal lighten-2">
-                    <li class="menu-logo center-align">
-                        <a id="menu-logo-container" href="#" data-activates="nav-sidebar" class="button-collapse">
-                            <div class="menu-logo-wrapper">
-                                <i class="material-icons medium">menu</i>
-                            </div>
-                        </a>
-                    </li>
-                </ul>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="name-container section">
+            <div class="name-img-container"></div>
+            <div class="name-content">
+                <div class="center-align display4">
+                    <span class="teal-text">
+                        David Lai
+                    </span>
+                </div>
+                <div class="display3 center-align">
+                    <span class="teal-text">
+                        Mobile and Web Developer
+                    </span>
+                </div>
+                <div class="contact-buttons center-align">
+                    <a class="waves-effect waves-light btn" onclick="Materialize.toast('I am a toast', 4000)">
+                        Resume
+                    </a>
+                    <a class="waves-effect waves-light btn">GitHub</a>
+                    <a class="waves-effect waves-light btn">LinkedIn</a>
+                </div>
             </div>
-        </header> -->
-        <main>
-            <div id="name-banner" class="section center-align">
-                <div class="container">
-                    <div class="row">
-                        <div class="col s12 m12">
-                            <img class="image-headshot circle" src="images/headshot.jpg">
-                            <h1 class="header">
-                                David Lai
-                            </h1>
-                            <h2>
-                                Software Engineer
-                            </h2>
-                        </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="row section green lighten-4 about-me">
+            <div class="display3">
+                About me
+            </div>
+            <p class="flow-text">
+                <!-- Hey there, I'm David. I am a Computer Science major at the University of Waterloo. My interests are in Mobile development, Web development, Algorithms, Networking... Which is another way of saying, I have no idea what I'm going to do, but all I know is, I love to learn, I love to build, and I love to code. -->
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam commodo aliquam nibh, eu commodo quam auctor nec. Cras ultrices nunc odio, ut efficitur purus viverra quis. Integer vel orci auctor, congue dui at, vehicula ex. Nunc viverra nulla eu turpis lacinia rhoncus. Cras sed tempor orci. In bibendum bibendum ultrices. Nunc tincidunt, velit sed faucibus tempor, ligula diam elementum diam, ut malesuada quam mi eget sem. Nunc dapibus arcu nec felis eleifend ornare. Quisque bibendum dapibus pulvinar. Quisque vel eros viverra, malesuada turpis ut, sagittis mauris. Nullam malesuada pretium rhoncus. Quisque non nisi turpis. Vivamus sed dolor justo. Praesent tortor lectus, elementum a feugiat vitae, feugiat in dui.
+            </p>
+        </div>
+        <div class="row skills-wrapper purple lighten-4 section">
+            <div class="display3">
+                Skills
+            </div>
+            <div class="card yellow lighten-3">
+                <div class="card-content">
+                    <h4>Languages</h4>
+                    <h5>
+                        Java, C, C++
+                    </h5>
+                </div>
+            </div>
+            <div class="card blue lighten-4">
+                <div class="card-content">
+                    <span class="card-title">Card Title</span>
+                    <p>I am a very simple card. I am good at containing small bits of information.
+                        I am convenient because I require little markup to use effectively.</p>
                     </div>
                 </div>
             </div>
-            <div class="section teal">
-                <div class="container">
-                    <div class="row">
-                        Hi there! I am a software developer with a huge passion for learning new technologies.
-                    </div>
-                </div>
+        </div>
+        <div class="parallax-container">
+            <div class="parallax">
+                <img src="images/img1.jpg">
             </div>
-        </main>
-        <footer class="page-footer teal lighten-2">
-            <div class="footer-copyright">
-                <div class="container">
-                    <i class="material-icons tiny">copyright</i>
-                    2016 David Lai 
-                    <a class="grey-text text-lighten-4 right" href="#!">Reach bruh</a>
-                </div>
-            </div>
-        </footer>
-    </body>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+</body>
 </html>
 
 <script type="text/javascript">
     $(document).ready(function(){
-        $(".button-collapse").click(function(){
-            $("#nav-sidebar-content").animate({
-                width: "toggle"
-            }, 350);
-        })
-    })
+      $('.parallax').parallax();
+  });
 </script>
+
+
