@@ -19,19 +19,8 @@
 }
 
 .name-container {
-	
+	margin-top: -15px;
 }
-
-/*.name-img-container {
-	background-image: url("../images/img1.jpg");
-	filter: brightness(35%);
-	height: 500px;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	position: absolute;
-	display: block;
-}*/
 
 .name-container:before {
 	background: url("../images/img1.jpg");
@@ -54,7 +43,7 @@
 }
 
 .headshot-img-wrapper {
-	margin-top: 30px;
+	padding-top: 40px;
 }
 
 .headshot-img {
@@ -74,4 +63,3 @@
 .about-me {
 	margin-top: 20px;
 }
-
