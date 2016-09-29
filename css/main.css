@@ -22,37 +22,32 @@
 	margin-top: -15px;
 }
 
-.name-container:before {
-	background: url("../images/img1.jpg");
+.name-bg-image {
+	width: 100%;
 	filter: brightness(45%);
-	height: 660px;
-	left: 0;
-	right: 0;
-	z-index: 1;
-	position: absolute;
-	display: block;
-	content: "";
+}
+
+.name-bg-image-wrapper {
+	overflow: hidden;
+	height: 750px;
 }
 
 .name-content {
-	z-index: 2;
-	position: relative;	
+	position: absolute;	
 	left: 0;
 	top: 0;
+	right: 0;
 	display:block;
 }
 
 .headshot-img-wrapper {
-	padding-top: 40px;
-}
-
-.headshot-img {
-	filter: brightness(80%);
+	padding-top: 60px;
 }
 
 .headshot-img {
 	height: 300px;
 	width: 300px;
+	filter: brightness(80%);
 }
 
 .name-description {
