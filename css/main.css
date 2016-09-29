@@ -19,7 +19,7 @@
 }
 
 .name-container {
-	margin-top: -15px;
+	position: relative;
 }
 
 .name-bg-image {
@@ -37,11 +37,8 @@
 	left: 0;
 	top: 0;
 	right: 0;
-	display:block;
-}
-
-.headshot-img-wrapper {
-	padding-top: 60px;
+	display: block;
+	margin-top: 80px;
 }
 
 .headshot-img {
@@ -53,6 +50,24 @@
 .name-description {
 	margin-top: 30px;
 	margin-bottom: 30px;
+}
+
+.skills-container {
+	position: relative;
+}
+
+.skills-content {
+	position: absolute;	
+	left: 0;
+	top: 0;
+	right: 0;
+	display: block;
+	margin-top: 64px;
+}
+
+.skills-bg-image {
+	width:100%;
+	filter: brightness(45%);
 }
 
 .about-me {
