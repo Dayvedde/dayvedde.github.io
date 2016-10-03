@@ -62,7 +62,7 @@
 	top: 0;
 	right: 0;
 	display: block;
-	margin-top: 64px;
+	margin-top: 40px;
 }
 
 .skills-bg-image {
@@ -72,4 +72,17 @@
 
 .about-me {
 	margin-top: 20px;
+}
+
+/* Skills section */
+.skills-header {
+	background: rgba(0, 0, 0, 0.6);
+	line-height: 6rem;
+}
+
+.skills-header i {
+	color: white;
+	font-size: 3rem;
+	line-height: 6rem;
+	width: 3rem;
 }
