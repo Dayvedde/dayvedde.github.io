@@ -77,4 +77,36 @@
 .skills-bg-image {
 	width:100%;
 	filter: brightness(45%);
+	min-height: 1000px;
+}
+
+.skill-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	flex-basis: auto;
+	margin: 30px 50px;
+}
+
+.skill-item {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.skill-item i {
+	font-size: 70px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.skill-item-name {
+	color: white;
+}
+
+.redux-icon {
+	background-image: url("../images/redux-icon.png");
+	background-repeat: no-repeat;
+    background-size: 100% auto;
 }
