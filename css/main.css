@@ -14,10 +14,6 @@
 	filter: brightness(40%);
 }
 
-.parallax-container {
-	height: 500px;
-}
-
 .name-container {
 	position: relative;
 }
@@ -25,11 +21,7 @@
 .name-bg-image {
 	width: 100%;
 	filter: brightness(45%);
-}
-
-.name-bg-image-wrapper {
-	overflow: hidden;
-	height: 750px;
+	min-height: 800px;
 }
 
 .name-content {
@@ -52,6 +44,23 @@
 	margin-bottom: 30px;
 }
 
+.about-me {
+	margin-top: 20px;
+}
+
+/* Skills section */
+.skills-header {
+	background: rgba(0, 0, 0, 0.6);
+	line-height: 6rem;
+}
+
+.skills-header i {
+	color: white;
+	font-size: 3rem;
+	line-height: 6rem;
+	width: 3rem;
+}
+
 .skills-container {
 	position: relative;
 }
@@ -68,21 +77,4 @@
 .skills-bg-image {
 	width:100%;
 	filter: brightness(45%);
-}
-
-.about-me {
-	margin-top: 20px;
-}
-
-/* Skills section */
-.skills-header {
-	background: rgba(0, 0, 0, 0.6);
-	line-height: 6rem;
-}
-
-.skills-header i {
-	color: white;
-	font-size: 3rem;
-	line-height: 6rem;
-	width: 3rem;
 }
