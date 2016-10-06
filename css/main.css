@@ -89,6 +89,10 @@
 	margin-right: 30px;
 }
 
+.skill-row-bg {
+	background: rgba(0, 0, 0, 0.7);
+}
+
 .skill-item {
 	display: flex;
 	flex-direction: column;
