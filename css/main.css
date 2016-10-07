@@ -61,7 +61,7 @@
 	width: 3rem;
 }
 
-.skills-container {
+.skills-section {
 	position: relative;
 }
 
@@ -77,7 +77,7 @@
 .skills-bg-image {
 	width:100%;
 	filter: brightness(45%);
-	min-height: 1000px;
+	height: 1150px;
 }
 
 .skill-row {
