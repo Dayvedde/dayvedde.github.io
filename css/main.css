@@ -1,74 +1,74 @@
 .name-description {
-	font-size: 48px;
-	font-weight: '500';
+    font-size: 48px;
+    font-weight: 500;
 }
 
 .name-text {
-	font-size: 112px;
-	font-weight: 200;
+    font-size: 112px;
+    font-weight: 200;
 }
 
 .image-container {
-	max-width:100%;
-	max-height:100%;
-	filter: brightness(40%);
+    max-width: 100%;
+    max-height: 100%;
+    filter: brightness(40%);
 }
 
 .name-container {
-	position: relative;
+    position: relative;
 }
 
 .name-bg-image {
-	width: 100%;
-	filter: brightness(45%);
-	min-height: 800px;
-	max-height: 1000px;
+    width: 100%;
+    filter: brightness(45%);
+    min-height: 800px;
+    max-height: 1000px;
 }
 
 .name-content {
-	position: absolute;	
-	left: 0;
-	top: 0;
-	right: 0;
-	display: block;
-	margin-top: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: block;
+    margin-top: 80px;
 }
 
 .headshot-img {
-	height: 300px;
-	width: 300px;
-	filter: brightness(80%);
+    height: 300px;
+    width: 300px;
+    filter: brightness(80%);
 }
 
 .name-description {
-	margin-top: 30px;
-	margin-bottom: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .about-me {
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
 /* Skills section */
 .skills-header {
     display: flex;
     flex-direction: row;
-	background: rgba(0, 0, 0, 0.6);
-	border-bottom: 1px solid #ddd;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #ddd;
     line-height: 6rem;
     padding: 0 1rem;
 }
 
 .skills-header i {
-	color: white;
-	font-size: 3rem;
-	line-height:6rem;
-	width: 3rem;
+    color: white;
+    font-size: 3rem;
+    line-height: 6rem;
+    width: 3rem;
     margin-right: 1rem;
 }
 
 .skills-section {
-	position: relative;
+    position: relative;
 }
 
 .skills-container {
@@ -79,53 +79,67 @@
 }
 
 .skills-content {
-	position: absolute;	
-	left: 0;
-	top: 0;
-	right: 0;
-	display: block;
-	margin-top: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    display: block;
+    margin-top: 40px;
 }
 
 .skills-bg-image {
-	width:100%;
-	filter: brightness(45%);
-	height: 1100px;
+    width: 100%;
+    filter: brightness(45%);
+    height: 1100px;
 }
 
 .skill-row {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
-	margin-left: 30px;
-	margin-right: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
     margin-bottom: 30px;
 }
 
 .skill-row-bg {
-	background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.7);
     border-bottom: 1px solid #ddd;
 }
 
 .skill-item {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	flex-basis: 20%;
-	margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 20%;
+    margin-top: 30px;
 }
 
 .skill-item i {
-	font-size: 70px;
-	margin-bottom: 10px;
-	color: white;
+    font-size: 70px;
+    margin-bottom: 10px;
+    color: white;
 }
 
 .skill-item-name {
-	color: white;
+    color: white;
 }
 
 .redux-icon {
-	width: 73px;
-	margin-bottom: 10px;
+    width: 73px;
+    margin-bottom: 10px;
 }
+
+/* Work Experience */
+.work-experience-item {
+    border: 1px solid black;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    height: 20rem;
+}
+
+.work-experience-text-wrapper {
+    margin: 1rem 0;
+}
+
+
