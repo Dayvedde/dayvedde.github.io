@@ -185,17 +185,19 @@
             <div class="col s12 work-experience-text-wrapper">
                 <span class="display3">Work Experience</span>
             </div>
-            <div class="col l7 md7 s12 work-experience-item">
-                hello
-            </div>
-            <div class="col l7 md7 s12 offset-l5 work-experience-item">
-                bye
-            </div>
-            <div class="col l7 md7 s12 work-experience-item">
-                hello
-            </div>
-            <div class="col l7 md7 s12 offset-l5 work-experience-item">
-                bye
+            <div id="work-items-list">
+                <div id="work-item-1" class="col l7 md7 s12 work-experience-item">
+                    Ingle International
+                </div>
+                <div id="work-item-2" class="col l7 md7 s12 offset-l5 work-experience-item">
+                    FreshBooks
+                </div>
+                <div id="work-item-3" class="col l7 md7 s12 work-experience-item">
+                    Metroland Media
+                </div>
+                <div id="work-item-4" class="col l7 md7 s12 offset-l5 work-experience-item">
+                    IBM
+                </div>
             </div>
         </div>
     </div>
@@ -205,18 +207,3 @@
 </footer>
 </body>
 </html>
-
-<script type="text/javascript">
-    $(document).ready(function () {
-        var options = [
-            {
-                selector: '#something',
-                offset: 50,
-                callback: function (el) {
-                    Materialize.toast("Toast", 1500);
-                }
-            }
-        ];
-        Materialize.scrollFire(options);
-    });
-</script>
