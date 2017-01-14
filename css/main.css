@@ -131,32 +131,3 @@
     width: 73px;
     margin-bottom: 10px;
 }
-
-/* Work Experience */
-.work-experience-item {
-    border: 1px solid black;
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    height: 20rem;
-}
-
-.work-experience-text-wrapper {
-    margin: 1rem 0;
-}
-
-.work-experience-item {
-    position: relative;
-}
-
-.work-img {
-    max-height: 100%;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-}

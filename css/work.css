@@ -1,0 +1,55 @@
+/* Work Experience */
+.work-experience-item {
+    border: 1px solid black;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    height: 20em;
+}
+
+.work-experience-text-wrapper {
+    margin: 1rem 0;
+}
+
+.work-experience-item {
+    position: relative;
+}
+
+.work-title {
+    position: absolute;
+    padding: 0.5em;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#work-ingle-desc {
+    position: absolute;
+    top: 4em;
+    left: -200px;
+    opacity: 0
+}
+
+.work-img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#work-metroland > .work-img {
+    max-width: 80%;
+}
