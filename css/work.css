@@ -33,6 +33,7 @@
 #work-ingle-desc {
     position: absolute;
     top: 4em;
+    right: 1em;
     left: -200px;
     opacity: 0
 }
