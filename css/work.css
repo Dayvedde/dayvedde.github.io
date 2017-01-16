@@ -38,6 +38,12 @@
     opacity: 0
 }
 
+@media only screen and (max-width: 768px) {
+    .work-desc {
+        line-height: 1.2;
+    }
+}
+
 #work-ingle-desc {
     position: absolute;
     top: 4em;
